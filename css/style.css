@@ -1,0 +1,16 @@
+.table-example__th,
+.table-example__td {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+.table-first {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input::placeholder {
+    color: aqua;
+}

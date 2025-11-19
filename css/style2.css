@@ -1,0 +1,98 @@
+*,
+::before,
+::after {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1600px;
+    background-color: #321A4A;
+    font-family: 'Inter', sans-serif;   
+    font-optical-sizing: auto;
+    font-style: normal; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.container {
+    width: 1600px;
+    border: 1px solid #fff;
+    height: 805px;
+    border-radius: 60px;
+}
+
+.container_h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    font-weight: normal;
+}
+
+.form {
+    background-color: #FDA6D7;
+    display: flex;
+    width: 1250px;
+    height: 630px;
+    padding: 60px 125px;
+    border-radius: 60px;
+}
+
+input,
+select {
+    width: 300px;
+    background-color: #D9D9D9;
+    border-radius: 30px;
+    border: none;
+    height: 50px;
+    margin-bottom: 30px;    
+}
+
+select {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    padding-left: 28px;
+}
+
+.text,
+.email,
+.number,
+.button_bb,
+.select {
+    color: black;
+    font-size: 24px;
+    padding-left: 28px;
+    margin-right: 40px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: black;
+    font-size: 24px;
+}
+
+textarea {
+    background-color: #D9D9D9;
+    border-radius: 30px;
+    border: none;
+    width: 1000px;
+    height: 250px;
+    padding-top: 8px;
+}
+
+.form_button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: #321A4A;
+    color: #fff;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
